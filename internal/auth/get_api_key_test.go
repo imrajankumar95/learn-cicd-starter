@@ -15,7 +15,7 @@ func TestGetAPIKey(t *testing.T) {
 		// Add your test cases here
 		{
 			name:       "valid api key",
-			authHeader: "ApiKey abc12345",
+			authHeader: "ApiKey 12345",
 			want:       "12345",
 			wantErr:    false,
 		},
